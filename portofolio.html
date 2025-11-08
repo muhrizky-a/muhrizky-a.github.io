@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio</title>
+    <link rel="stylesheet" href="portofolio.css">
+</head>
+
+<body>
+    <div id="gradient"></div>
+    <div class="title">
+        <h1>Rizki A.'s Portofolio</h1>
+        <p>Cloud, Backend, IoT, Mobile</p>
+    </div>
+    <main>
+        <div id="content">
+            <div class="card">
+                <div class="card-title">
+                    <img src="assets/homelab-architecture.png" alt="LOKI Architecture Diagram" class="featured-image">
+                    <h2>Homelab Server</h2>
+                </div>
+                <div class="categories">
+                    <p class="category-tag">Cloud</p>
+                    <p class="category-tag">Sysadmin</p>
+                    <p class="category-tag">Network</p>
+                </div>
+                <b>Description:</b>
+                <p>Provisioning a for RnD-purpose Homelab Server consisting of Network VMs, Application Container
+                    Orchestration VMs, Continuous Deployment Platform, and Uptime Check Platform
+                </p>
+                <b>Tech Stack:</b>
+                <p>Proxmox 8, Kubernetes v1.28, Mikrotik CHR, Jenkins, Uptime Kuma</p>
+                <a href="https://github.com/muhrizky-a/loki-stack-deployment" target="_blank">GitHub</a>
+            </div>
+            <div class="card">
+                <div class="card-title">
+                    <img src="assets/rfid-reader-physical.jpg" alt="Physical Device of RFID Reader"
+                        class="featured-image">
+                    <h2>RFID Sprint Reader</h2>
+                </div>
+                <div class="categories">
+                    <p class="category-tag">IoT</p>
+                    <p class="category-tag">Backend</p>
+                </div>
+                <b>Description:</b>
+                <p>IoT Solution for tracking [(Marathon) Sprinter, Runner, and Bicycle Racer] finish time</p>
+                <b>Tech Stack:</b>
+                <p>UHF RFID Reader, Flask, RabbitMQ, SQL/InfluxDB, Raspberry Pi</p>
+                <a href="https://github.com/muhrizky-a/loki-stack-deployment" target="_blank">GitHub</a>
+            </div>
+            <div class="card">
+                <div class="card-title">
+                    <img src="assets/loki-architecture.png" alt="LOKI Architecture Diagram" class="featured-image">
+                    <h2>Linux OpenStack Kubernetes Infrastructure Stack on Ubuntu</h2>
+                </div>
+                <div class="categories">
+                    <p class="category-tag">Cloud</p>
+                    <p class="category-tag">Sysadmin</p>
+                </div>
+                <b>Description:</b>
+                <p>Deployment of Linux, OpenStack, Kubernetes Infrastructure as a scalable Private Cloud
+                    Infrastructure
+                </p>
+                <b>Tech Stack:</b>
+                <p>Ubuntu 22.04, OpenStack 2024.1, Kubernetes 1.28, Kolla-Ansible</p>
+                <a href="https://github.com/muhrizky-a/loki-stack-deployment" target="_blank">GitHub</a>
+            </div>
+            <div class="card">
+                <div class="card-title">
+                    <img src="assets/forum-api.png" alt="Forum API" class="featured-image">
+                    <h2>Garuda Forum API</h2>
+                </div>
+                <div class="categories">
+                    <p class="category-tag">Backend</p>
+                </div>
+                <b>Description:</b>
+                <p>Game Forum REST API with CRUD of Thread, Comment, and Reply</p>
+                <b>Tech Stack:</b>
+                <p>HapiJs, SQL, Github Action, Nginx Rate-Limiting</p>
+                <a href="https://github.com/muhrizky-a/la-api-del-foro-de-garuda-hapijs/" target="_blank">GitHub</a>
+            </div>
+            <div class="card">
+                <div class="card-title">
+                    <iframe
+                        src="https://www.youtube.com/embed/C5uiiqR4eFQ?controls=controls=2&enablejsapi=1&fs=1&iv_load_policy=3&modestbranding=1&rel=0&playsInline=0&start=0"
+                        title="Music Video" class="featured-image" frameborder="0" allow="encrypted-media"
+                        allowfullscreen></iframe>
+                    <h2>Smart Farm App and IoT</h2>
+                </div>
+                <div class="categories">
+                    <p class="category-tag">IoT</p>
+                    <p class="category-tag">Mobile</p>
+                </div>
+                <b>Description:</b>
+                <p>IoT-based Smart Farm Solution that monitor soil data (pH, humidity), ambient air (temperature,
+                    humidity), controlling sprinkler and lamp</p>
+                <b>Tech Stack (App):</b>
+                <p>Flutter, BLoC, MQTT/WebSocket</p>
+                <b>Tech Stack (Microcontroller):</b>
+                <p>ESP32, Soil humidity sensor, DHT22, relay</p>
+                <a href="https://github.com/muhrizky-a/flutter-smart-farm" target="_blank">GitHub (App)</a>
+                <br>
+                <br>
+                <a href="https://github.com/alfahri18/Skripsi-IOT" target="_blank">GitHub (Microcontroller)</a>
+            </div>
+            <div class="card">
+                <div class="card-title">
+                    <img src="assets/hkcctv-api.jpg" alt="HKCCTV API Architecture Diagram" class="featured-image">
+                    <h2>HKIOT CCTV API</h2>
+                </div>
+                <div class="categories">
+                    <p class="category-tag">Backend</p>
+                </div>
+                <b>Description:</b>
+                <p>REST API of HKCCTV System to manage CCTV (data CRUD, stream, PTZ, snapshot, record), AI Guest
+                    Counter, Guest Counter</p>
+                <b>Tech Stack:</b>
+                <p>Flask, NoSQL, Firebase (Auth, Storage, Crashlytics), OpenCV, NVR, Socket.io</p>
+
+            </div>
+            <div class="card">
+                <div class="card-title">
+                    <img src="assets/hkcctv.jpg" alt="HKCCTV App" class="featured-image">
+                    <h2>HKIOT CCTV App</h2>
+                </div>
+                <div class="categories">
+                    <p class="category-tag">Mobile</p>
+                </div>
+                <b>Description:</b>
+                <p>Vendor-agnostic CCTV Mobile App capable of manage Camera (data CRUD, stream, PTZ, snapshot,
+                    record),
+                    fetch Guest Counter, and (potentially) receive Notification</p>
+                <b>Tech Stack:</b>
+                <p>Flutter, BloC, Firebase</p>
+
+            </div>
+            <div class="card">
+                <div class="card-title">
+                    <iframe
+                        src="https://www.youtube.com/embed/CLGkHeKj6UE?controls=controls=2&enablejsapi=1&fs=1&iv_load_policy=3&modestbranding=1&rel=0&playsInline=0&start=0"
+                        title="Music Video" class="featured-image" frameborder="0" allow="encrypted-media"
+                        allowfullscreen></iframe>
+                    <h2>Interumah API</h2>
+                </div>
+                <div class="categories">
+                    <p class="category-tag">Backend</p>
+                </div>
+                <b>Description:</b>
+                <p>One-stop Interior Mobile App where Interior Designer and Client meets, chat, create Budget Plan,
+                    and
+                    conduct Interior Design transaction</p>
+                <b>Tech Stack:</b>
+                <p><b>Tech Stack:</b> ExpressJs, SQL, NodeMailer, Google Sign-In, GitHub Action</p>
+                <a href="https://github.com/muhrizky-a/interumah-api" target="_blank">GitHub</a>
+            </div>
+            <div class="card">
+                <div class="card-title">
+                    <img src="assets/recapin-api.png" alt="Recapin API Architecture Diagram" class="featured-image">
+                    <h2>Recapin (Recognition App Indonesian Food) API</h2>
+                </div>
+                <div class="categories">
+                    <p class="category-tag">Backend</p>
+                    <p class="category-tag">Cloud</p>
+                </div>
+                <b>Description:</b>
+                <p>REST API of data management of Indonesian traditional food, and image-based Food Prediction AI
+                    integration, ready to deploy in Google Cloud environment</p>
+                <b>Tech Stack:</b>
+                <p>HapiJs, Flask, TensorFlow, Keras, Google CLoud Storage, Firebase Firestore, Google
+                    Cloud
+                    Run</p>
+                <a href="https://github.com/muhrizky-a/capstone-project-c22-ps352/tree/api" target="_blank">GitHub</a>
+            </div>
+
+
+        </div>
+    </main>
+
+
+</body>
+<script src="portofolio.js"></script>
+
+</html>
